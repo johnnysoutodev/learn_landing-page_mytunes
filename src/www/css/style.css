@@ -83,6 +83,9 @@ body {
       width: 100%;
       position: relative;
     }
+    .cf .hide-on-small{
+        display: none;
+    }
   }
   .cf:before, .cf:after {
     content: "";
