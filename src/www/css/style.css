@@ -20,6 +20,16 @@ body {
   #showcase .container{
     margin-top: 25vh;
   }
+  #showcase h1{
+    font-size: 4rem;
+    margin-bottom: 0;
+  }
+  #showcase h2{
+    font-size: 2rem;
+  }
+  .lead{
+    font-size: 1.3rem;
+  }
   /* Utility Classes */
   .container{
     max-width: 1180px;
@@ -60,6 +70,9 @@ body {
   }
   
   @media screen and (max-width: 580px) {
+    .hide-on-small{
+      display: none;
+    }
     nav {
       height: auto;
       border-bottom: 0;
