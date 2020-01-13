@@ -17,6 +17,9 @@ body {
     position: relative;
     overflow-y: hidden;
   }
+  #showcase .container{
+    margin-top: 25vh;
+  }
   /* Utility Classes */
   .container{
     max-width: 1180px;
