@@ -73,6 +73,15 @@ body {
     .hide-on-small{
       display: none;
     }
+    #showcase{
+      height: 50vh;
+    }
+    #showcase .container{
+      margin-top: 10vh;
+    }
+    #showcase h1{
+      font-size: 3rem;
+    }
     nav {
       height: auto;
       border-bottom: 0;
