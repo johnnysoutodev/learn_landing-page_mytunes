@@ -42,6 +42,15 @@ body {
   .btn-primary{
     background: var(--primary-color);
   }
+  .btn-primary:hover{
+    background: var(--primary-color-hover);
+  }
+  .btn-secondary{
+    background: var(--secondary-color);
+  }
+  .btn-secondary:hover{
+    background: var(--secondary-color-hover);
+  }
   /* Showcase */
   #showcase{
     margin: 0;
