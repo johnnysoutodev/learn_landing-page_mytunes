@@ -34,6 +34,10 @@ body {
   .section h3{
     font-size: 2rem;
   }
+  section#entertainment{
+    background: url(../images/section-bg.jpg) no-repeat bottom/cover;
+    padding: 10rem 0;
+  }
   /* Text colors */
   .text-primary{
     color: var(--primary-color);
