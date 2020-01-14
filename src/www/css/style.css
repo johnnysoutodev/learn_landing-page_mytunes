@@ -7,6 +7,7 @@
   --secondary-color: #103063;
   --secondary-color-hover: #143f85;
   --light-color: #f4f4f4;
+  --dark-color: #333;
 }
 body {
     font-family: 'PT Sans Narrow', sans-serif;
@@ -43,8 +44,11 @@ body {
   .text-light{
     color: var(--light-color);
   }
+  .text-dark{
+    color: var(--dark-color);
+  }
   .bg-light{
-    background: #fff;
+    background: var(--light-color);
   }
   /* Buttons */
   .btn{
