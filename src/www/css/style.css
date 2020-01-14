@@ -38,6 +38,12 @@ body {
     background: url(../images/section-bg.jpg) no-repeat bottom/cover;
     padding: 10rem 0;
   }
+  .gift-cards{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    text-align: justify;
+  }
   /* Text colors */
   .text-primary{
     color: var(--primary-color);
