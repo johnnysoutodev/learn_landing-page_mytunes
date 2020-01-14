@@ -33,6 +33,15 @@ body {
   .section h3{
     font-size: 2rem;
   }
+  /* Buttons */
+  .btn{
+    padding: 1rem;
+    color: #fff;
+    display: inline-block;
+  }
+  .btn-primary{
+    background: var(--primary-color);
+  }
   /* Showcase */
   #showcase{
     margin: 0;
