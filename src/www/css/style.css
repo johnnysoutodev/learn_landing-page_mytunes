@@ -43,6 +43,9 @@ body {
   .text-light{
     color: var(--light-color);
   }
+  .bg-light{
+    background: #fff;
+  }
   /* Buttons */
   .btn{
     padding: 1rem;
