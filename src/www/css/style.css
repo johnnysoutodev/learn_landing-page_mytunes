@@ -152,7 +152,7 @@ body {
     margin: 0;
   }
   nav li {
-    display: inline;
+    display: block;
     float: left;
   }
   nav a {
